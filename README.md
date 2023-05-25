@@ -21,7 +21,7 @@ posteriormente aplicada no software Octave para sumulação dinâmica.
 
 Foram desenvolvidos 4 arquivos de funções em Octave/Matlab que operam em conjunto:
 
-* Dummy_v2 (main): Executa o cálculo das Equações Diferencias Ordinárias e realiza o plot dos resultados;
-* AccHeadDef: Calcula a matriz gerada pela equações de lagrange e com o resultado encontra o valor da aceleração da cabeça do Dummy;
-* dydt: Determina as derivadas das Equações Diferenciais Ordinárias;
-* hicN: Calcula o HIC do sistema;
+* Dummy_v2.m (main): Executa o cálculo das Equações Diferencias Ordinárias e realiza o plot dos resultados;
+* AccHeadDef.m: Calcula a matriz gerada pela equações de lagrange e com o resultado encontra o valor da aceleração da cabeça do Dummy;
+* dydt.m: Determina as derivadas das Equações Diferenciais Ordinárias;
+* hicN.m: Calcula o HIC do sistema;
