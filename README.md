@@ -1,5 +1,7 @@
 # Análise de Impacto Veicular Frontal: Modelagem de Dummy com Sistemas Massa Mola Amortecedor
 
+## Objetivos
+
 O presente trabalho tem como objetivo realizar a análise da modelagem de um
 impacto frontal sofrido por um automóvel a 48km/h. Nessa etapa do projeto, o
 desenvolvimento realizado se concentra na cinemática do Dummy Hybrid III 50th, um
@@ -14,3 +16,12 @@ modelo, de forma a utilizar apenas molas e amortecedores (o que também inclui m
 torção nas juntas). Essas simplificações possibilitaram a aplicação da mecânica de
 Lagrange que forneceu as equações para que a modelagem fosse realizada e
 posteriormente aplicada no software Octave para sumulação dinâmica.
+
+## Simulações no Octave
+
+Foram desenvolvidos 4 arquivos de funções em Octave/Matlab que operam em conjunto:
+
+* Dummy_v2 (main): Executa o cálculo das Equações Diferencias Ordinárias e realiza o plot dos resultados;
+* AccHeadDef: Calcula a matriz gerada pela equações de lagrange e com o resultado encontra o valor da aceleração da cabeça do Dummy;
+* dydt: Determina as derivadas das Equações Diferenciais Ordinárias;
+* hicN: Calcula o HIC do sistema;
