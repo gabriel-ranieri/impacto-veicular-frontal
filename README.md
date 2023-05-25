@@ -1,7 +1,5 @@
 # Análise de Impacto Veicular Frontal: Modelagem de Dummy com Sistemas Massa Mola Amortecedor
 
-## Introdução
-
 O presente trabalho tem como objetivo realizar a análise da modelagem de um
 impacto frontal sofrido por um automóvel a 48km/h. Nessa etapa do projeto, o
 desenvolvimento realizado se concentra na cinemática do Dummy Hybrid III 50th, um
