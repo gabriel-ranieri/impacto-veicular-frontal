@@ -1,5 +1,9 @@
 # Análise de Impacto Veicular Frontal: Modelagem de Dummy com Sistemas Massa Mola Amortecedor
 
+## Autores
+* Gabriel Ranieri Vaz de Lima
+* Caio Felipe dos Santos Oliveira
+
 ## Objetivos
 
 O presente trabalho tem como objetivo realizar a análise da modelagem de um
